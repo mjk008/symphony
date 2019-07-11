@@ -65,25 +65,32 @@ new simpleParallax(image, {
 var image = document.getElementsByClassName('sproof u-image u-image-default u-image-1');
 new simpleParallax(image, {
     delay: 3.6,
-    orientation: 'up-left',
+    orientation: 'up-right',
+    scale: 1.3,
+	overflow: true
+});
+
+var image = document.getElementsByClassName('img4 u-image u-image-default u-image-2');
+new simpleParallax(image, {
+    delay: 4.6,
+    orientation: 'right',
     scale: 1.5,
 	overflow: true
 });
 
-var image = document.getElementsByClassName('splash u-image u-image-default u-image-2');
+var image = document.getElementsByClassName('splash u-image u-image-default u-image-3');
 new simpleParallax(image, {
     delay: 4.6,
     orientation: 'left',
     scale: 1.5,
 	overflow: true
 });
-
 //section 4 ends here
 
 var image = document.getElementsByClassName('dual-pairing u-image u-image-default u-image-1');
 new simpleParallax(image, {
     delay: 4.6,
-    orientation: 'down',
+    orientation: 'right-down',
     scale: 1.5,
 	overflow: true
 });
@@ -91,7 +98,7 @@ new simpleParallax(image, {
 var image = document.getElementsByClassName('img5 u-image u-image-default u-image-2');
 new simpleParallax(image, {
     delay: 4.6,
-    orientation: 'down',
+    orientation: 'up',
     scale: 1.5,
 	overflow: true
 });
@@ -140,9 +147,9 @@ new simpleParallax(image, {
 
 var image = document.getElementsByClassName('mg');
 new simpleParallax(image, {
-    delay: 4.6,
+    delay: 1,
     orientation: 'left',
-    scale: 2.5,
+    scale: 1.5,
 	overflow: true
 });
 //section 7 ends here
